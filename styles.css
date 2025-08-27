@@ -1,0 +1,87 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #357ab8;
+}
+
+.site-header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.navigation a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.card h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.card p,
+.card ul {
+  margin-left: 10px;
+}
+
+/* Button styling */
+.cta-button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #ddd;
+  text-align: center;
+  border-top: 2px solid #aaa;
+}
+
